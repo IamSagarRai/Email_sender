@@ -21,4 +21,4 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
     server.login(sender_email, password)
     server.sendmail(sender_email, receiver_email, message.as_string())
 
-print("Officially Send the email!")
+print("Officially Sent the email!")
