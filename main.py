@@ -10,9 +10,9 @@ receiver_email = ""  # Enter receiver email address
 password = input("Enter a password: ")
 
 message = EmailMessage()
-message["From"] = "sender_email" --> Has to be given by the user his/herself !
-message["To"] = "receiver_email" --> Has to be given by the user his/herself !
-message["Subject"] = "subject" --> Has to be given by the user his/herself !
+message["From"] = "sender_email" --> "Has to be given by the user his/herself !"
+message["To"] = "receiver_email" --> "Has to be given by the user his/herself !"
+message["Subject"] = "subject" --> "Has to be given by the user his/herself !"
 
 
 context = ssl.create_default_context()
